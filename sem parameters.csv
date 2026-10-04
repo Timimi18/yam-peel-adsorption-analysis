@@ -1,0 +1,10 @@
+sample,magnification,hv_kV,wd_mm,hfw_um,pressure_Pa,scale_label_um
+raw_peel,8000,20,10.2,125,70,50
+raw_peel,9000,20,10.4,126,70,100
+raw_peel,10000,20,8.4,130,70,20
+after_Zn,8000,20,9.6,120,70,100
+after_Zn,9000,20,9.8,122,70,50
+after_Zn,10000,20,10.2,125,70,20
+after_Mn,8000,15,15.9,110,90,10
+after_Mn,9000,15,15.2,110,90,10
+after_Mn,10000,15,13.2,120,90,10

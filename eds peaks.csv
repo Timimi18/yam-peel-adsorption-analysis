@@ -1,0 +1,4 @@
+sample,observed_keV,label_in_report,note
+after_Zn,0.9,Zn,principal peak
+after_Zn,2.25,Zn,second peak labelled Zn; read from the printed axis as 2.2 to 2.3
+after_Mn,3.7,Mn,tallest peak

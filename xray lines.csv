@@ -1,0 +1,17 @@
+element,line,energy_keV
+C,Ka,0.277
+O,Ka,0.525
+Fe,La,0.705
+Mn,La,0.637
+Zn,La,1.012
+Na,Ka,1.041
+Al,Ka,1.487
+Si,Ka,1.740
+S,Ka,2.307
+K,Ka,3.314
+Ca,Ka,3.692
+Ca,Kb,4.013
+Mn,Ka,5.899
+Mn,Kb,6.490
+Fe,Ka,6.404
+Zn,Ka,8.639

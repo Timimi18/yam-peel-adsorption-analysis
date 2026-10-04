@@ -1,0 +1,61 @@
+series,metal,label,dilution_factor,reading_mg_L,mass_g,volume_L,nominal_C0_mg_L,time_min,pH_initial,temp_C,note
+control,Mn,control_400,10,13.1,,,400,120,,,unexposed 400 mg/L working solution
+control,Zn,control_400,50,2.861,,,400,120,,,unexposed 400 mg/L working solution
+stock,Mn,stock_SSS,50,10.6,,,1000,,,,nominal 999 mg/L
+stock,Zn,stock_SSS,50,3.279,,,1000,,,,nominal 999 mg/L
+dose,Mn,dose_0.2g,10,12.58,0.2,0.05,400,120,,,
+dose,Mn,dose_0.4g,10,11.61,0.4,0.05,400,120,,,
+dose,Mn,dose_0.6g,10,11.21,0.6,0.05,400,120,,,
+dose,Mn,dose_0.8g,10,9.85,0.8,0.05,400,120,,,
+dose,Mn,dose_1.0g,10,8.95,1.0,0.05,400,120,,,
+dose,Zn,dose_0.2g,50,1.796,0.2,0.05,400,120,,,unreplicated outlier; see notebook 00
+dose,Zn,dose_0.4g,50,2.647,0.4,0.05,400,120,,,
+dose,Zn,dose_0.6g,50,2.630,0.6,0.05,400,120,,,
+dose,Zn,dose_0.8g,50,2.491,0.8,0.05,400,120,,,
+dose,Zn,dose_1.0g,50,2.339,1.0,0.05,400,120,,,
+time,Mn,time_30,10,12.80,0.6,0.05,400,30,,,
+time,Mn,time_60,10,12.87,0.6,0.05,400,60,,,
+time,Mn,time_90,10,12.75,0.6,0.05,400,90,,,
+time,Mn,time_120_dirt,10,11.33,0.6,0.05,400,120,,,label 'dirt' in lab report; taken as the sample
+time,Mn,time_120_clea,10,13.8,0.6,0.05,400,120,,,label 'clea' in lab report; identity undocumented
+time,Mn,time_150,10,12.55,0.6,0.05,400,150,,,
+time,Zn,time_30,50,2.360,0.6,0.05,400,30,,,
+time,Zn,time_60,50,2.420,0.6,0.05,400,60,,,
+time,Zn,time_90,50,2.094,0.6,0.05,400,90,,,
+time,Zn,time_120_sample,50,2.385,0.6,0.05,400,120,,,taken as the sample
+time,Zn,time_120_std,50,2.666,0.6,0.05,400,120,,,label '120 std'; identity undocumented
+time,Zn,time_150,50,2.178,0.6,0.05,400,150,,,
+concentration,Mn,conc_100,,9.16,0.6,0.05,100,120,,,dilution factor not reported; excluded
+concentration,Mn,conc_200,10,6.88,0.6,0.05,200,120,,,negative uptake; excluded from log fits
+concentration,Mn,conc_300,10,8.53,0.6,0.05,300,120,,,
+concentration,Mn,conc_400,10,11.46,0.6,0.05,400,120,,,
+concentration,Mn,conc_500,10,13.87,0.6,0.05,500,120,,,
+concentration,Zn,conc_100,1,3.413,0.6,0.05,100,120,,,measured undiluted; different analytical basis
+concentration,Zn,conc_200,1,3.683,0.6,0.05,200,120,,,measured undiluted; different analytical basis
+concentration,Zn,conc_300,50,1.466,0.6,0.05,300,120,,,
+concentration,Zn,conc_400,50,2.190,0.6,0.05,400,120,,,
+concentration,Zn,conc_500,50,2.802,0.6,0.05,500,120,,,
+pH,Mn,pH_3,10,12.56,0.6,0.05,400,120,3,,
+pH,Mn,pH_5,10,11.61,0.6,0.05,400,120,5,,
+pH,Mn,pH_7_first,10,12.79,0.6,0.05,400,120,7,,two pH 7 readings; order of preparation undocumented
+pH,Mn,pH_7_second,10,10.5,0.6,0.05,400,120,7,,two pH 7 readings; order of preparation undocumented
+pH,Mn,pH_9,1,10.42,0.6,0.05,400,120,9,,measured undiluted; hydroxide precipitation expected
+pH,Mn,pH_11,1,8.44,0.6,0.05,400,120,11,,measured undiluted; hydroxide precipitation expected
+pH,Zn,pH_3,50,2.303,0.6,0.05,400,120,3,,
+pH,Zn,pH_5,50,2.259,0.6,0.05,400,120,5,,
+pH,Zn,pH_7_first,50,1.591,0.6,0.05,400,120,7,,two pH 7 readings; order of preparation undocumented
+pH,Zn,pH_7_second,50,0.701,0.6,0.05,400,120,7,,two pH 7 readings; order of preparation undocumented
+pH,Zn,pH_9,1,3.316,0.6,0.05,400,120,9,,measured undiluted; hydroxide precipitation expected
+pH,Zn,pH_11,1,2.63,0.6,0.05,400,120,11,,measured undiluted; hydroxide precipitation expected
+temperature,Mn,temp_27,10,10.39,0.6,0.05,400,120,,27,
+temperature,Mn,temp_37,10,11.83,0.6,0.05,400,120,,37,
+temperature,Mn,temp_47,10,11.5,0.6,0.05,400,120,,47,
+temperature,Mn,temp_57,10,12.06,0.6,0.05,400,120,,57,
+temperature,Mn,temp_67,10,12.3,0.6,0.05,400,120,,67,
+temperature,Mn,temp_sixth,10,13.35,0.6,0.05,400,120,,,sixth reading for five temperatures; unassigned
+temperature,Zn,temp_27,50,1.423,0.6,0.05,400,120,,27,
+temperature,Zn,temp_37,50,1.301,0.6,0.05,400,120,,37,
+temperature,Zn,temp_47,50,1.75,0.6,0.05,400,120,,47,
+temperature,Zn,temp_57,50,2.352,0.6,0.05,400,120,,57,
+temperature,Zn,temp_67,50,1.681,0.6,0.05,400,120,,67,
+temperature,Zn,temp_sixth,50,2.483,0.6,0.05,400,120,,,sixth reading for five temperatures; unassigned
